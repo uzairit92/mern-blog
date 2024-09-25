@@ -5,24 +5,20 @@ import SignUp from './pages/SignUp'
 import Signin from './pages/Signin'
 import Dashboard from './pages/Dashboard'
 import Projects from './pages/Projects'
+import Header from './components/Header'
 
-const App = () => {
+export default function App = () {
   return (
-    <div>
     <BrowserRouter>
-    <Routes>
-    <Route path="/" element={ <Home/> } />
-    <Route path="/about" element={ <About/> } />
-    <Route path="/sign-in" element={ <Signin/> } />
-    <Route path="/sign-up" element={ <SignUp/> } />
-    <Route path="/dashboard" element={ <Dashboard/> } />
-    <Route path="/projects" element={ <Projects/> } />
-
-    </Routes>
-    
+      <Header/>
+        <Routes>
+          <Route path="/" element={ <Home/> } />
+          <Route path="/about" element={ <About/> } />
+          <Route path="/sign-in" element={ <Signin/> } />
+          <Route path="/sign-up" element={ <SignUp/> } />
+          <Route path="/dashboard" element={ <Dashboard/> } />
+          <Route path="/projects" element={ <Projects/> } />
+        </Routes>
     </BrowserRouter>
-    </div>
   )
 }
-
-export default App

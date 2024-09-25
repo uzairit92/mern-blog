@@ -1,0 +1,14 @@
+https://www.youtube.com/watch?v=Kkht2mwSL_I
+
+
+ Staarted = 20-02-2024
+
+
+now start Cretae Headers and Components 
+
+
+make a folder
+
+then open VS Code 
+
+install create vate
