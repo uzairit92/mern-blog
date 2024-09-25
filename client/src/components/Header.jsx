@@ -1,9 +1,6 @@
-import React from 'react'
 
 export default function Header() {
   return (
-    <div>
-      
-    </div>
-  )
+   <div className="text-3xl">Hello Header</div>
+  );
 }

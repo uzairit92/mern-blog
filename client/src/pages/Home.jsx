@@ -1,13 +1,10 @@
-import React from 'react';
 
-const Home = () => {
+
+function Home() {
   return (
-    <div>
-      <h1>Home, Hello MERN Blog </h1>
-
+    <div>Home Hello Mern App
     </div>
   )
 }
 
 export default Home;
-
